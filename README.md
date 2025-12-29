@@ -35,9 +35,18 @@ To compile the document into a professional PDF, run:
 xelatex "OPC (MOA and AOA).tex"
 ```
 
+## 🚀 Future Ready & Commercial Features
+
+This repository is optimized for commercial use and easy updates:
+
+- **Modular Configuration:** All subscriber, nominee, and company details are defined as macros at the top of the LaTeX file for rapid updates.
+- **Electronic Signatures:** Integrated support for digital signature assets in the `assets/` directory.
+- **Scalable Objects:** The MOA includes broad business objects designed for global software and tech services.
+
 ## 📂 Project Structure
 
-- `OPC (MOA and AOA).tex`: The main LaTeX source file.
+- `OPC (MOA and AOA).tex`: The main LaTeX source file (Modular).
+- `assets/`: Directory for signature images and other digital assets.
 - `LICENSE`: Proprietary licensing terms.
 - `CONTRIBUTING.md`: Guidelines for updates.
 
